@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/*1em == 16px*/
+body{
+	background-col<style>
+}
+
+h1{
+	text-align: center;
+	color: #ff8c1a;
+	font-family: Candara;
+	margin-bottom: 3em;
+}
+
+h4.intro{
+/*Heading for intro*/	
+	clear: right;
+	width: 22.5em;
+	text-indent: 3em;/*fix the intro so that it aligns to the right efficiently*/
+	float: right;
+	z-index: 2;
+}
+
+p.intro{
+/*Information concerning intro*/	
+	clear: right;
+	width: 22.5em;
+	float: right;
+	z-index: 2;
+}
+
+ul.intro{
+/*Page links on the side(possibly located at the top in future)*/	
+	clear: right;
+	float: right;
+	z-index: 2;
+	font-family: Candara;
+	color:#00001a;
+}
+
+h4 {
+/*Blog topics*/
+    color: red;
+    text-indent: 4.6875em;
+    font-family: Verdana;
+    border-left: .5em double #b3ffff;
+    border-bottom: .25em groove #b3ffff;
+    margin-bottom: 1.875em;
+    width: 25em;
+    display: block;
+} 
+
+p{
+/*Blog content*/	
+	color:#00001a;
+	width: 53.125em;
+	font-family: Candara;
+	border-left: .5em double #b3ffff;
+	margin-left: 5.9375em;
+	display: block;
+}
+
+img.paragraph{
+/*Basic structure of images on site*/
+	float: right;
+	margin: 0 0 1em 1em;
+}
+
+img.heading{
+/*Structure of heading picture*/
+	float: right;
+	margin: 0 0 3em 1em;
+	z-index: 2;
+	filter: blur(.06em);
+	-webkit-filter: blur(.06em);
+}
+
+ul{
+/*Unordered lists' qualities*/	
+	color:#00001a;
+	margin-left: 5.9375em;
+	font-family: Candara;
+}
+
+</style>
+</head>
+<body>
+
+<h1><img class="heading" src="file:///C:/Users/Destini/Dropbox/Camera%20Uploads/2015-11-11%2020.15.34.jpg" alt="My Art 01" style="width:4em;height:4em;">System.input.print("Amateur Blog")</h1>
+
+<h4 class="intro">Introduction</h4>
+
+<p class="intro">Hello everybody and welcome to my blog! I'm Destini, an amateur at best when it comes to coding, yet delightfully so. I want to show you my journey of learning and relearning code in hopes of reaching a destination (steady freelancing, here I come!).
+</p>
+
+	<ul class="intro">
+		<li>Main Page</li>
+		<li>Blog Archives</li>
+		<li>Resume</li>
+		<li>Projects</li>
+		<li>About Me</li>
+	</ul>
+
+<h4>01/12:Back from vacation!</h4>
+
+<p>Man! I need to get back to doing this! I think I'm getting even closer to building a site in which I'm fully satisfied looking at(at least until I want to make further additions to it). Looking at the MIT book that I've been studying, I've learned more complicated and convoluted ways to describing what I do on an almost daily basis. So, to further my journey, chapter one out of five is done!
+</p>
+
+<p>Update: I did it! Yureka! Avast ye programmers, I've conquered the dreaded page orientation beast!</p>
+
+<h4>12/17: Let's read! Let's program!</h4>
+
+<p>I've decided to read MIT's <a href="https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start">"Structure and Interpretation of Computer Programs."</a> I'm really hoping that I learn more about the specific jargon of programming and the core details of each step. It'll definitely help develop a direction towards programs that I want to create in the future!</p>
+
+<p>Boy, this page is looking a bit iffy while I try to figure out how to put the introduction on the empty space to the right of the website as well as figuring out how to find the appropriate spot for images of my graphic designs of geometric abstractions. It might have to do something with column properties and -webkit-.</p>
+
+<h4>12/16:First day of coding/blogging</h4>
+
+<p>So far, I've managed to create a skeleton of a website and I'm aiming to rehash all the C++, Java, and web-based languages I have learned during high school to get a broader idea of how to do this. In short, experimenting and reading are going to be my main exercises for my computing brain.</p>
+
+<p><img class="paragraph" src="http://puu.sh/lXshu/eb24762ce7.png" alt="Blog Code 1.0">My basic CSS code looks like this so far. I originally started out with making the image entirely separate from the image's description but I figured that this blog could use a tad bit less height and a bit more weight in content per line. It also makes it easier to adjust em font size this way. My main concerns for the near future are:
+<ul>
+	<li>Are any of these general term descriptions going to become a bit troublesome later on?</li>
+	<li><del>How do I make the most of the space on this site?</del> By making use of columns and the overall design.</li>
+	<li><del>Which computer science book do I start on?</del> Basic Comp. Sci from MIT</li>
+	<li>What improvements can be made aesthetically to this site?</li>
+	<li>How can I apply Javascript efficiently for this site?</li>
+</ul>	
+</p>
+<p>And yes, I'm coding in Sublime Text 2 rather than Atom or the more recent Sublime text editor. If it ain't broke (and runs efficiently), don't fix it!</p>
+
+</body>
+</html>
